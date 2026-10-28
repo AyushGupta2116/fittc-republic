@@ -15,7 +15,7 @@
   <meta property="og:image" content="assets/hero.jpg">
 
   <!-- Favicon / Brand Icon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffd000'><path d='M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z'/></svg>">
+  <link rel="icon" type="image/svg+xml" href="assets/logo_icon.svg">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/variables.css">
@@ -28,24 +28,18 @@
   <!-- Ambient Light Glow Background -->
   <div class="ambient-mesh"></div>
 
-  <!-- 1. Top Announcement Bar -->
+  <!-- 1. Top Announcement Bar (Clean & Streamlined) -->
   <div class="announcement-bar">
     <div class="container announcement-inner">
       <div id="liveGymStatus" class="status-badge-live">
         <span class="live-dot"></span>
         <span>OPEN NOW (Mon-Sat: Closes 10:30 PM)</span>
       </div>
-      <div class="announcement-text">
-        <span>🔥 <strong>Seasonal Challenge Offer:</strong> Get a Free InBody Clinical Scan + Personalized Diet Plan with 3-Month Plan!</span>
-      </div>
       <div class="announcement-contact">
+        <span style="color: var(--text-muted); font-size: 0.8rem;">📍 3rd Floor, Newtech La Gracia Mall, Crossings Republik</span>
         <a href="tel:+919871250900" id="topCallLink">
           <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-width="2"></path></svg>
-          Front Desk: +91 98712 50900
-        </a>
-        <a href="https://www.instagram.com/fittc_republic/?hl=en" target="_blank" rel="noopener" id="topInstaLink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-width="2"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2"></line></svg>
-          @fittc_republic
+          +91 98712 50900
         </a>
       </div>
     </div>
@@ -55,10 +49,8 @@
   <header class="site-header" id="siteHeader">
     <div class="container header-inner">
       <a href="#hero" class="brand-logo" id="brandLogo">
-        <div class="brand-icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>
-          </svg>
+        <div class="brand-icon-box">
+          <img src="assets/logo_icon.svg" alt="FITTC Republic Original Logo" class="original-logo-img">
         </div>
         <div class="brand-text">
           <span class="brand-title">FITTC <span>REPUBLIC</span></span>
@@ -94,93 +86,57 @@
     </div>
   </header>
 
-  <!-- 3. Hero Section -->
+  <!-- 3. Clean & Minimalist Hero Section -->
   <section class="hero-section" id="hero">
     <div class="hero-bg-media">
       <img src="assets/hero.jpg" alt="FITTC REPUBLIC Gym Interior Crossings Republik" loading="eager">
     </div>
     <div class="hero-gradient-overlay"></div>
 
-    <div class="container hero-layout">
-      <!-- Left Content -->
-      <div class="hero-content">
-        <div class="hero-tag">
-          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          Crossings Republik's #1 Rated Fitness Facility
-        </div>
-        <h1 class="hero-title">
-          BUILD YOUR BEST BODY.<br>
-          <span class="text-gradient">OWN YOUR REPUBLIC.</span>
-        </h1>
-        <p class="hero-description">
-          Experience Ghaziabad’s premier gym combined with an <strong>In-House Clinical Diet Center</strong>. Featuring high-intensity strength equipment, certified coaches, daily Zumba &amp; Yoga, and medical-grade nutrition planning tailored to your exact metabolic goals.
-        </p>
-
-        <div class="hero-cta-group">
-          <button class="btn btn-primary btn-lg js-open-vip-pass" id="heroClaimBtn">
-            Claim Free 1-Day VIP Pass
-            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round"></path></svg>
-          </button>
-          <a href="#diet-clinic" class="btn btn-ghost btn-lg" id="heroDietCalcBtn">
-            Calculate My Diet &amp; BMI
-          </a>
-        </div>
-
-        <div class="hero-metrics-grid">
-          <div class="metric-item">
-            <span class="metric-num">4.9★</span>
-            <span class="metric-label">500+ Verified Reviews</span>
+    <div class="container">
+      <div class="hero-layout clean-layout">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <img src="assets/logo_icon.svg" alt="" width="16" height="16" style="vertical-align: middle;">
+            Crossings Republik's Premier Fitness Destination
           </div>
-          <div class="metric-item">
-            <span class="metric-num">10K+</span>
-            <span class="metric-label">Sq. Ft. Luxury Floor</span>
-          </div>
-          <div class="metric-item">
-            <span class="metric-num">100%</span>
-            <span class="metric-label">Clinical Diet Guidance</span>
-          </div>
-        </div>
-      </div>
 
-      <!-- Right Lead Capture Form Card -->
-      <div class="hero-card-wrapper">
-        <div class="hero-card">
-          <span class="card-top-badge">⚡ Instant Guest Access</span>
-          <h3>GET A 1-DAY VIP PASS</h3>
-          <p>Zero cost. Experience the workout floor, steam bath, and get a complimentary diet assessment.</p>
+          <h1 class="hero-title">
+            TRANSFORM YOUR BODY.<br>
+            <span class="text-gradient">ELEVATE YOUR LIFE.</span>
+          </h1>
 
-          <form id="heroLeadForm" class="lead-form">
-            <div class="form-group">
-              <label for="heroLeadName" class="form-label">Full Name</label>
-              <input type="text" id="heroLeadName" class="form-control" placeholder="e.g. Rahul Sharma" required>
-            </div>
+          <p class="hero-description">
+            10,000+ sq.ft. luxury workout floor, certified in-house clinical nutritionists, and dynamic Zumba &amp; Yoga studio classes at Newtech La Gracia Mall.
+          </p>
 
-            <div class="form-group">
-              <label for="heroLeadPhone" class="form-label">WhatsApp Number</label>
-              <input type="tel" id="heroLeadPhone" class="form-control" placeholder="e.g. 98182 XXXXX" required>
-            </div>
-
-            <div class="form-group">
-              <label for="heroLeadGoal" class="form-label">Primary Fitness Goal</label>
-              <select id="heroLeadGoal" class="form-control" required>
-                <option value="Fat Loss & Toning">Fat Loss &amp; Toning</option>
-                <option value="Muscle Building & Hypertrophy">Muscle Building &amp; Hypertrophy</option>
-                <option value="Clinical Diet Consultation (PCOS / Thyroid / Diabetes)">Clinical Diet Consultation (PCOS / Thyroid)</option>
-                <option value="Zumba & Group Dance Classes">Zumba &amp; Group Dance Classes</option>
-                <option value="Strength & Functional Athletics">Strength &amp; Functional Athletics</option>
-              </select>
-            </div>
-
-            <button type="submit" class="btn btn-orange" style="width: 100%;" id="heroSubmitBtn">
-              Generate My VIP Pass
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-lg js-open-vip-pass" id="heroClaimBtn">
+              Book Free 1-Day Trial
               <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round"></path></svg>
             </button>
+            <a href="https://wa.me/919871250900?text=Hi%20FITTC%20REPUBLIC%20team,%20I%20would%20like%20to%20inquire%20about%20gym%20membership%20and%20diet%20plans!" target="_blank" class="btn btn-ghost btn-lg" id="heroWaBtn">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.19.014.305-.058.115-.087.187-.173.289l-.26.309c-.087.088-.178.184-.076.359.101.174.451.744.968 1.205.666.593 1.227.777 1.401.864.174.088.275.073.377-.044.101-.116.433-.506.549-.68.116-.174.231-.145.39-.087s1.011.477 1.184.564.289.13.332.203c.043.073.043.421-.101.826z"/></svg>
+              Chat on WhatsApp
+            </a>
+          </div>
 
-            <div class="form-guarantee">
-              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
-              <span>Instant Pass Delivered via WhatsApp • No Spam Guarantee</span>
+          <div class="hero-trust-bar">
+            <div class="trust-item">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              <span><strong>4.9★</strong> (500+ Reviews)</span>
             </div>
-          </form>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+              <span><strong>In-House</strong> Diet Clinic</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+              <span><strong>10,000+ Sq.Ft.</strong> Luxury Floor</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -791,10 +747,8 @@
       <div class="footer-grid">
         <div class="footer-col">
           <div class="brand-logo" style="margin-bottom: 16px;">
-            <div class="brand-icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>
-              </svg>
+            <div class="brand-icon-box">
+              <img src="assets/logo_icon.svg" alt="FITTC Republic Original Logo" class="original-logo-img">
             </div>
             <div class="brand-text">
               <span class="brand-title">FITTC <span>REPUBLIC</span></span>
@@ -845,7 +799,12 @@
 
       <div class="footer-bottom">
         <div>&copy; 2026 FITTC REPUBLIC Gym &amp; Diet Clinic. All Rights Reserved.</div>
-        <div style="color: var(--text-muted); font-size: 0.78rem;">Designed for High-Converting Client Acquisition • Crossings Republik, Ghaziabad</div>
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <a href="#" id="clientPitchBadge" style="color: var(--text-muted); text-decoration: none; font-size: 0.76rem; border: 1px solid rgba(255,255,255,0.1); padding: 3px 10px; border-radius: 99px;">
+            💼 Owner Lead CRM (<span id="crmLeadCount">3</span>)
+          </a>
+          <span style="color: var(--text-muted); font-size: 0.78rem;">Crossings Republik, Ghaziabad</span>
+        </div>
       </div>
     </div>
   </footer>
@@ -931,12 +890,6 @@
     </div>
   </div>
 
-  <!-- 15. GYM OWNER PITCH TOOL: DEMO LEAD CRM DRAWER -->
-  <!-- This floating tool helps pitch to the gym owner by showing leads captured live -->
-  <button class="client-pitch-badge" id="clientPitchBadge" title="Click to view live captured leads (Owner Demo Tool)">
-    <span>💼 Pitch Mode: Owner Lead CRM</span>
-    <span id="crmLeadCount" style="background: var(--primary); color: #000; padding: 1px 7px; border-radius: 99px; font-size: 0.75rem;">3</span>
-  </button>
 
   <div class="crm-preview-drawer" id="crmPreviewDrawer">
     <div class="crm-head">

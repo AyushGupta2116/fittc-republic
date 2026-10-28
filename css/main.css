@@ -188,22 +188,31 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.brand-icon {
-  width: 44px;
-  height: 44px;
-  background: linear-gradient(135deg, #1b263b 0%, #0d131f 100%);
-  border: 1.5px solid var(--primary);
+.brand-icon-box {
+  width: 48px;
+  height: 48px;
+  background: #0e1420;
+  border: 1.5px solid rgba(255, 208, 0, 0.35);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary);
-  box-shadow: 0 0 16px var(--primary-glow);
-  transition: transform var(--transition-spring);
+  padding: 4px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  transition: transform var(--transition-spring), border-color var(--transition-fast);
+  flex-shrink: 0;
 }
 
-.brand-logo:hover .brand-icon {
-  transform: rotate(-8deg) scale(1.08);
+.brand-logo:hover .brand-icon-box {
+  transform: scale(1.05);
+  border-color: var(--primary);
+  box-shadow: 0 0 20px var(--primary-glow);
+}
+
+.original-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .brand-text {

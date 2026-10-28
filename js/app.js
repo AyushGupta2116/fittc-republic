@@ -176,7 +176,7 @@ function renderClasses() {
         <span>Intensity: <strong style="color: #fff;">${item.intensity}</strong></span>
         <span class="spots-badge">⚡ ${item.spots} free spots left</span>
       </div>
-      <button class="btn btn-ghost btn-sm" style="margin-top: 14px; width: 100%; border-color: rgba(203, 243, 13, 0.3);" onclick="openPassModalWithClass('${item.title}', '${item.time}')">
+      <button class="btn btn-ghost btn-sm" style="margin-top: 14px; width: 100%; border-color: rgba(255, 208, 0, 0.3);" onclick="openPassModalWithClass('${item.title}', '${item.time}')">
         Book Free Trial Spot
       </button>
     </div>
@@ -357,7 +357,7 @@ function initLeadModals() {
       if (modalBody) {
         modalBody.innerHTML = `
           <div style="text-align: center;">
-            <div style="width: 60px; height: 60px; background: rgba(203, 243, 13, 0.15); border-radius: 50%; color: var(--primary); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px auto; font-size: 1.8rem;">
+            <div style="width: 60px; height: 60px; background: rgba(255, 208, 0, 0.15); border-radius: 50%; color: var(--primary); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px auto; font-size: 1.8rem;">
               ✓
             </div>
             <h3 style="font-family: var(--font-heading); font-size: 2.2rem; color: #fff; margin-bottom: 6px;">VIP PASS CONFIRMED!</h3>

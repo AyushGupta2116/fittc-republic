@@ -1,44 +1,47 @@
-/* FITTC REPUBLIC Design System & Design Tokens */
+/* FITTC REPUBLIC Design System & Design Tokens - Black, White & Yellow Theme */
 :root {
-  /* Color Palette */
-  --bg-dark: #07090e;
-  --bg-surface: #0e131f;
-  --bg-surface-elevated: #151d2f;
-  --bg-card: rgba(18, 24, 38, 0.75);
-  --bg-card-hover: rgba(26, 35, 56, 0.85);
+  /* Color Palette: Deep Obsidian Black, Crisp White & Electric Gym Yellow */
+  --bg-dark: #07090d;
+  --bg-surface: #0e1219;
+  --bg-surface-elevated: #151a24;
+  --bg-card: rgba(18, 23, 32, 0.82);
+  --bg-card-hover: rgba(26, 33, 46, 0.92);
 
-  /* Brand Accents */
-  --primary: #cbf30d; /* Electric Volt Neon Lime */
-  --primary-hover: #b8de0b;
-  --primary-glow: rgba(203, 243, 13, 0.35);
-  --primary-subtle: rgba(203, 243, 13, 0.12);
+  /* Brand Accents: Electric Athletic Yellow & Gold */
+  --primary: #ffd000; /* Iconic Athletic Yellow */
+  --primary-hover: #e6bc00;
+  --primary-light: #ffe566;
+  --primary-glow: rgba(255, 208, 0, 0.4);
+  --primary-subtle: rgba(255, 208, 0, 0.12);
 
-  --accent-orange: #ff5b14; /* Energy Orange */
-  --accent-orange-glow: rgba(255, 91, 20, 0.3);
-  --accent-cyan: #00e5ff; /* Pulse Cyan */
-  --accent-cyan-subtle: rgba(0, 229, 255, 0.12);
+  /* Secondary Accents: Pure Crisp White & Warm Amber Gold */
+  --accent-white: #ffffff;
+  --accent-orange: #ff9e00; /* Warm Gold Amber */
+  --accent-orange-glow: rgba(255, 158, 0, 0.35);
+  --accent-cyan: #ffffff; /* Clean White Highlight */
+  --accent-cyan-subtle: rgba(255, 255, 255, 0.12);
 
-  /* WhatsApp Green */
+  /* WhatsApp Green (Preserved for recognizable WhatsApp action) */
   --whatsapp-green: #25d366;
   --whatsapp-glow: rgba(37, 211, 102, 0.4);
 
-  /* Typography Colors */
-  --text-main: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-  --text-inverse: #07090e;
+  /* Typography Colors: White & High-Contrast Light Slate */
+  --text-main: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #7b8c9f;
+  --text-inverse: #07090d;
 
   /* Borders & Dividers */
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-accent: rgba(203, 243, 13, 0.35);
-  --border-glass: rgba(255, 255, 255, 0.12);
+  --border-subtle: rgba(255, 255, 255, 0.1);
+  --border-accent: rgba(255, 208, 0, 0.45);
+  --border-glass: rgba(255, 255, 255, 0.14);
 
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #cbf30d 0%, #a2d600 100%);
-  --gradient-energy: linear-gradient(135deg, #ff5b14 0%, #ff8c00 100%);
-  --gradient-dark: linear-gradient(180deg, rgba(7, 9, 14, 0.4) 0%, rgba(7, 9, 14, 0.95) 100%);
-  --gradient-card: linear-gradient(145deg, rgba(22, 31, 51, 0.6) 0%, rgba(13, 18, 30, 0.8) 100%);
-  --gradient-glow: radial-gradient(circle at 50% 50%, rgba(203, 243, 13, 0.15) 0%, transparent 70%);
+  --gradient-primary: linear-gradient(135deg, #ffd000 0%, #ffaa00 100%);
+  --gradient-energy: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%);
+  --gradient-dark: linear-gradient(180deg, rgba(7, 9, 13, 0.45) 0%, rgba(7, 9, 13, 0.96) 100%);
+  --gradient-card: linear-gradient(145deg, rgba(22, 28, 40, 0.7) 0%, rgba(13, 17, 25, 0.85) 100%);
+  --gradient-glow: radial-gradient(circle at 50% 50%, rgba(255, 208, 0, 0.18) 0%, transparent 70%);
 
   /* Typography */
   --font-heading: 'Bebas Neue', 'Outfit', sans-serif;
@@ -51,9 +54,9 @@
   --announcement-height: 40px;
 
   /* Shadows */
-  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.25);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
-  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.65);
   --shadow-glow: 0 0 30px var(--primary-glow);
   --shadow-glow-orange: 0 0 30px var(--accent-orange-glow);
 

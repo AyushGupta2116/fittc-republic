@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITTC REPUBLIC | Gym & Diet Clinic | Crossings Republik, Ghaziabad</title>
+  <meta name="description" content="FITTC REPUBLIC is Crossings Republik's premier luxury gym and certified diet clinic at La Gracia Mall. State-of-the-art strength equipment, clinical nutrition plans, Zumba, Yoga & MMA. Book your free VIP pass today!">
+  <meta name="keywords" content="gym in crossings republik, diet clinic ghaziabad, fittc republic, zumba classes crossings republik, personal trainer ghaziabad, weight loss clinic nh24">
+  
+  <!-- OpenGraph Social Tags -->
+  <meta property="og:title" content="FITTC REPUBLIC | Gym & Diet Clinic - Crossings Republik">
+  <meta property="og:description" content="Transform your body at Crossings Republik's top-rated fitness center. 10,000+ sq.ft workout floor & clinical nutrition clinic.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://instagram.com/fittc_republic">
+  <meta property="og:image" content="assets/hero.jpg">
+
+  <!-- Favicon / Brand Icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23cbf30d'><path d='M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z'/></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Ambient Light Glow Background -->
+  <div class="ambient-mesh"></div>
+
+  <!-- 1. Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-inner">
+      <div id="liveGymStatus" class="status-badge-live">
+        <span class="live-dot"></span>
+        <span>OPEN NOW (Mon-Sat: Closes 10:30 PM)</span>
+      </div>
+      <div class="announcement-text">
+        <span>🔥 <strong>Seasonal Challenge Offer:</strong> Get a Free InBody Clinical Scan + Personalized Diet Plan with 3-Month Plan!</span>
+      </div>
+      <div class="announcement-contact">
+        <a href="tel:+919871250900" id="topCallLink">
+          <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-width="2"></path></svg>
+          Front Desk: +91 98712 50900
+        </a>
+        <a href="https://www.instagram.com/fittc_republic/?hl=en" target="_blank" rel="noopener" id="topInstaLink">
+          <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-width="2"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2"></line></svg>
+          @fittc_republic
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Sticky Site Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">FITTC <span>REPUBLIC</span></span>
+          <span class="brand-tagline">Gym &amp; Diet Clinic • Ghaziabad</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#programs" class="nav-link">Offerings</a></li>
+          <li><a href="#diet-clinic" class="nav-link">Diet Clinic &amp; BMI</a></li>
+          <li><a href="#classes" class="nav-link">Class Schedule</a></li>
+          <li><a href="#transformations" class="nav-link">Transformations</a></li>
+          <li><a href="#memberships" class="nav-link">Memberships</a></li>
+          <li><a href="#contact" class="nav-link">Find Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav CTA Actions -->
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm btn-pulse js-open-vip-pass" id="navVipBtn">
+          Free 1-Day Pass
+        </button>
+        <a href="https://wa.me/919871250900?text=Hi%20FITTC%20REPUBLIC%20team,%20I%20would%20like%20to%20inquire%20about%20gym%20membership%20and%20diet%20plans!" target="_blank" class="btn btn-whatsapp btn-sm" id="navWaBtn">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.19.014.305-.058.115-.087.187-.173.289l-.26.309c-.087.088-.178.184-.076.359.101.174.451.744.968 1.205.666.593 1.227.777 1.401.864.174.088.275.073.377-.044.101-.116.433-.506.549-.68.116-.174.231-.145.39-.087s1.011.477 1.184.564.289.13.332.203c.043.073.043.421-.101.826z"/></svg>
+          WhatsApp
+        </a>
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu">
+          <svg width="26" height="26" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke-width="2" stroke-linecap="round"></path></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-media">
+      <img src="assets/hero.jpg" alt="FITTC REPUBLIC Gym Interior Crossings Republik" loading="eager">
+    </div>
+    <div class="hero-gradient-overlay"></div>
+
+    <div class="container hero-layout">
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="hero-tag">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Crossings Republik's #1 Rated Fitness Facility
+        </div>
+        <h1 class="hero-title">
+          BUILD YOUR BEST BODY.<br>
+          <span class="text-gradient">OWN YOUR REPUBLIC.</span>
+        </h1>
+        <p class="hero-description">
+          Experience Ghaziabad’s premier gym combined with an <strong>In-House Clinical Diet Center</strong>. Featuring high-intensity strength equipment, certified coaches, daily Zumba &amp; Yoga, and medical-grade nutrition planning tailored to your exact metabolic goals.
+        </p>
+
+        <div class="hero-cta-group">
+          <button class="btn btn-primary btn-lg js-open-vip-pass" id="heroClaimBtn">
+            Claim Free 1-Day VIP Pass
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round"></path></svg>
+          </button>
+          <a href="#diet-clinic" class="btn btn-ghost btn-lg" id="heroDietCalcBtn">
+            Calculate My Diet &amp; BMI
+          </a>
+        </div>
+
+        <div class="hero-metrics-grid">
+          <div class="metric-item">
+            <span class="metric-num">4.9★</span>
+            <span class="metric-label">500+ Verified Reviews</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-num">10K+</span>
+            <span class="metric-label">Sq. Ft. Luxury Floor</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-num">100%</span>
+            <span class="metric-label">Clinical Diet Guidance</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Lead Capture Form Card -->
+      <div class="hero-card-wrapper">
+        <div class="hero-card">
+          <span class="card-top-badge">⚡ Instant Guest Access</span>
+          <h3>GET A 1-DAY VIP PASS</h3>
+          <p>Zero cost. Experience the workout floor, steam bath, and get a complimentary diet assessment.</p>
+
+          <form id="heroLeadForm" class="lead-form">
+            <div class="form-group">
+              <label for="heroLeadName" class="form-label">Full Name</label>
+              <input type="text" id="heroLeadName" class="form-control" placeholder="e.g. Rahul Sharma" required>
+            </div>
+
+            <div class="form-group">
+              <label for="heroLeadPhone" class="form-label">WhatsApp Number</label>
+              <input type="tel" id="heroLeadPhone" class="form-control" placeholder="e.g. 98182 XXXXX" required>
+            </div>
+
+            <div class="form-group">
+              <label for="heroLeadGoal" class="form-label">Primary Fitness Goal</label>
+              <select id="heroLeadGoal" class="form-control" required>
+                <option value="Fat Loss & Toning">Fat Loss &amp; Toning</option>
+                <option value="Muscle Building & Hypertrophy">Muscle Building &amp; Hypertrophy</option>
+                <option value="Clinical Diet Consultation (PCOS / Thyroid / Diabetes)">Clinical Diet Consultation (PCOS / Thyroid)</option>
+                <option value="Zumba & Group Dance Classes">Zumba &amp; Group Dance Classes</option>
+                <option value="Strength & Functional Athletics">Strength &amp; Functional Athletics</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-orange" style="width: 100%;" id="heroSubmitBtn">
+              Generate My VIP Pass
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round"></path></svg>
+            </button>
+
+            <div class="form-guarantee">
+              <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+              <span>Instant Pass Delivered via WhatsApp • No Spam Guarantee</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Signature Offerings Section -->
+  <section id="programs" class="programs-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Why Choose FITTC Republic</span>
+        <h2 class="section-title">THE COMPLETE FITNESS &amp; CLINICAL ECOSYSTEM</h2>
+        <p class="section-subtitle">Unlike ordinary gyms that only hand you weights, FITTC REPUBLIC pairs world-class mechanical strength with medical nutritional science for guaranteed transformation.</p>
+      </div>
+
+      <div class="pillars-grid">
+        <!-- Pillar 1 -->
+        <div class="pillar-card">
+          <div class="pillar-img-box">
+            <img src="assets/equipment.jpg" alt="Strength & Cardio Floor" loading="lazy">
+            <span class="pillar-tag">Heavy Strength</span>
+          </div>
+          <div class="pillar-body">
+            <div class="pillar-icon-row">
+              <div class="pillar-icon">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+              </div>
+              <h3 class="pillar-title">STRENGTH &amp; CARDIO DECK</h3>
+            </div>
+            <p class="pillar-text">Commercial grade bio-mechanical machines, Olympic lifting racks, deadlift platforms, and smart touch-screen treadmills overlooking Crossings Republik skyline.</p>
+            <ul class="pillar-features">
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Heavy dumbbells up to 50 kg</li>
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Dedicated cardio theater &amp; stair climbers</li>
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Free floor trainer guidance included</li>
+            </ul>
+            <div class="pillar-footer">
+              <button class="btn btn-ghost btn-sm js-open-vip-pass" style="width: 100%;">Experience Strength Deck</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="pillar-card" style="border-color: rgba(203, 243, 13, 0.4);">
+          <div class="pillar-img-box">
+            <img src="assets/diet.jpg" alt="Clinical Diet Clinic" loading="lazy">
+            <span class="pillar-tag" style="background: var(--primary); color: #000;">Our Special USP</span>
+          </div>
+          <div class="pillar-body">
+            <div class="pillar-icon-row">
+              <div class="pillar-icon" style="background: rgba(203, 243, 13, 0.2);">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+              </div>
+              <h3 class="pillar-title">IN-HOUSE DIET CLINIC</h3>
+            </div>
+            <p class="pillar-text">No crash diets. Our qualified clinical nutritionists curate realistic Indian home-food macro plans based on your blood markers, hormonal profile (PCOS/Thyroid), and metabolism.</p>
+            <ul class="pillar-features">
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Multi-frequency InBody body composition scan</li>
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Weekly weigh-in &amp; macro adjustments</li>
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> PCOS, diabetes &amp; cholesterol management</li>
+            </ul>
+            <div class="pillar-footer">
+              <a href="#diet-clinic" class="btn btn-primary btn-sm" style="width: 100%;">Book Diet Consultation</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="pillar-card">
+          <div class="pillar-img-box">
+            <img src="assets/classes.jpg" alt="Studio Fitness Zumba & Yoga" loading="lazy">
+            <span class="pillar-tag">Studio Batches</span>
+          </div>
+          <div class="pillar-body">
+            <div class="pillar-icon-row">
+              <div class="pillar-icon">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+              </div>
+              <h3 class="pillar-title">ZUMBA, YOGA &amp; MMA</h3>
+            </div>
+            <p class="pillar-text">Dynamic group studio sessions featuring pulsating acoustics and energetic coaches. Burn 600+ calories while having extreme fun with your gym community.</p>
+            <ul class="pillar-features">
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Official licensed Zumba fitness sessions</li>
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Power Yoga &amp; therapeutic mobility</li>
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Boxing, Kickboxing &amp; MMA combat conditioning</li>
+            </ul>
+            <div class="pillar-footer">
+              <a href="#classes" class="btn btn-ghost btn-sm" style="width: 100%;">View Class Schedule</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="pillar-card">
+          <div class="pillar-img-box">
+            <img src="assets/trainer.jpg" alt="Personal Training Coaching" loading="lazy">
+            <span class="pillar-tag">1-on-1 Results</span>
+          </div>
+          <div class="pillar-body">
+            <div class="pillar-icon-row">
+              <div class="pillar-icon">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+              </div>
+              <h3 class="pillar-title">1-ON-1 TRANSFORMATION</h3>
+            </div>
+            <p class="pillar-text">Dedicated personal trainers who track your progressive overload, correct every rep angle, keep you accountable, and ensure zero plateaus or injury.</p>
+            <ul class="pillar-features">
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Bespoke periodized workout blueprints</li>
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Posture &amp; musculoskeletal rehabilitation</li>
+              <li><svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Daily WhatsApp nutrition check-in</li>
+            </ul>
+            <div class="pillar-footer">
+              <button class="btn btn-ghost btn-sm js-open-vip-pass" style="width: 100%;">Request Trial Training Session</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Interactive BMI & Clinical Nutrition Blueprint Calculator -->
+  <section id="diet-clinic" class="diet-clinic-section">
+    <div class="container">
+      <div class="diet-clinic-grid">
+        <!-- Left Explainer -->
+        <div class="diet-info">
+          <span class="section-badge badge-orange">Certified Clinical Diet Clinic</span>
+          <h2 class="section-title">NUTRITION IS 80% OF YOUR RESULTS. DON'T GUESS IT.</h2>
+          <p class="section-subtitle">
+            Most gym-goers fail because they follow generic internet diets. At <strong>FittC Republic Diet Clinic</strong>, our in-house Clinical Dietitian designs structured macro guidelines suited for Indian kitchen staples, work schedules, and biological markers.
+          </p>
+
+          <div class="diet-perks">
+            <div class="perk-card">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+              <div>
+                <h5>Clinical Body Scanning</h5>
+                <p>Precise visceral fat, skeletal muscle mass, and water hydration ratio monitoring.</p>
+              </div>
+            </div>
+
+            <div class="perk-card">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              <div>
+                <h5>Hormonal &amp; Lifestyle Diets</h5>
+                <p>Tailored protocols for PCOS, Thyroid, high uric acid, and cholesterol reversal.</p>
+              </div>
+            </div>
+
+            <div class="perk-card">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+              <div>
+                <h5>Realistic Indian Meals</h5>
+                <p>Enjoy paneer, dal, rice, roti, eggs, or chicken. No exotic unsustainable ingredients.</p>
+              </div>
+            </div>
+
+            <div class="perk-card">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"/></svg>
+              <div>
+                <h5>Weekly Adjustments</h5>
+                <p>Continuous support to guarantee you never hit a metabolic slowdown or rebound.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Interactive BMI & Macro Calculator -->
+        <div class="calculator-card">
+          <span class="card-top-badge" style="background: rgba(0, 229, 255, 0.15); color: #00e5ff;">Live Clinical Tool</span>
+          <h3 style="font-family: var(--font-heading); font-size: 2.1rem; margin-bottom: 6px;">INSTANT BMI &amp; CALORIE ESTIMATOR</h3>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 20px;">Move the sliders below to calculate your metabolic targets and get an immediate nutrition recommendation.</p>
+
+          <div class="calc-inputs-grid">
+            <div class="form-group">
+              <label class="form-label">Fitness Objective</label>
+              <select id="calcGoal" class="form-control">
+                <option value="fatloss">Rapid Fat Loss &amp; Toning</option>
+                <option value="muscle">Muscle Gain &amp; Hypertrophy</option>
+                <option value="pcod">PCOS / Thyroid Metabolic Control</option>
+                <option value="diabetes">Diabetes &amp; Blood Sugar Balance</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Gender</label>
+              <div style="display: flex; gap: 14px; margin-top: 8px;">
+                <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 0.9rem;">
+                  <input type="radio" name="calcGender" value="male" checked> Male
+                </label>
+                <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 0.9rem;">
+                  <input type="radio" name="calcGender" value="female"> Female
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weight Slider -->
+          <div class="range-group">
+            <div class="range-header">
+              <span>Your Body Weight</span>
+              <span id="weightDisplay">72 kg</span>
+            </div>
+            <input type="range" id="calcWeight" class="custom-range" min="40" max="140" value="72" step="1">
+          </div>
+
+          <!-- Height Slider -->
+          <div class="range-group">
+            <div class="range-header">
+              <span>Your Height</span>
+              <span id="heightDisplay">172 cm</span>
+            </div>
+            <input type="range" id="calcHeight" class="custom-range" min="130" max="210" value="172" step="1">
+          </div>
+
+          <!-- Live Results Output -->
+          <div class="calc-results-box">
+            <div class="result-stat">
+              <span class="result-stat-label">Body Mass Index (BMI)</span>
+              <span class="result-stat-val" id="bmiValueDisplay">24.3</span>
+              <span class="result-stat-badge" id="bmiCategoryBadge">Healthy Weight</span>
+            </div>
+
+            <div class="result-stat">
+              <span class="result-stat-label">Target Daily Calories</span>
+              <span class="result-stat-val" id="caloriesDisplay" style="color: #00e5ff;">1,850 kcal</span>
+              <span style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 4px;">Target Protein: <strong id="proteinDisplay" style="color: var(--primary);">140g</strong></span>
+            </div>
+
+            <div class="macro-split-bar">
+              <span style="font-size: 0.75rem; color: var(--text-secondary);">Optimal Macronutrient Split for FittC Diet Clinic:</span>
+              <div class="macro-progress">
+                <div class="macro-seg seg-protein" title="Protein 35%"></div>
+                <div class="macro-seg seg-carbs" title="Carbohydrates 45%"></div>
+                <div class="macro-seg seg-fats" title="Healthy Fats 20%"></div>
+              </div>
+              <div class="macro-legend">
+                <span style="color: var(--primary);">● 35% Protein</span>
+                <span style="color: var(--accent-cyan);">● 45% Complex Carbs</span>
+                <span style="color: var(--accent-orange);">● 20% Healthy Fats</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 22px;">
+            <button id="btnSendDietToWa" class="btn btn-whatsapp" style="width: 100%;">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.19.014.305-.058.115-.087.187-.173.289l-.26.309c-.087.088-.178.184-.076.359.101.174.451.744.968 1.205.666.593 1.227.777 1.401.864.174.088.275.073.377-.044.101-.116.433-.506.549-.68.116-.174.231-.145.39-.087s1.011.477 1.184.564.289.13.332.203c.043.073.043.421-.101.826z"/></svg>
+              Get Full Personalized Diet Blueprint on WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Live Studio Class Timetable Section -->
+  <section id="classes" class="classes-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Live Class Timetable</span>
+        <h2 class="section-title">ENERGETIC STUDIO BATCHES</h2>
+        <p class="section-subtitle">Choose from high-octane Zumba, mindful Power Yoga, or intense Combat MMA. Filter by day below and reserve a trial spot in your favorite batch.</p>
+      </div>
+
+      <div class="timetable-container">
+        <!-- Day Selector Tabs -->
+        <div class="schedule-filters">
+          <div class="day-selector">
+            <button class="day-pill active" data-day="mon">Monday</button>
+            <button class="day-pill" data-day="tue">Tuesday</button>
+            <button class="day-pill" data-day="wed">Wednesday</button>
+            <button class="day-pill" data-day="thu">Thursday</button>
+            <button class="day-pill" data-day="fri">Friday</button>
+            <button class="day-pill" data-day="sat">Saturday</button>
+            <button class="day-pill" data-day="sun">Sunday</button>
+          </div>
+
+          <div class="class-category-pills">
+            <button class="cat-pill active" data-cat="all">All Batches</button>
+            <button class="cat-pill" data-cat="zumba">💃 Zumba Dance</button>
+            <button class="cat-pill" data-cat="yoga">🧘 Power Yoga</button>
+            <button class="cat-pill" data-cat="mma">🥊 MMA &amp; Boxing</button>
+            <button class="cat-pill" data-cat="hiit">⚡ HIIT &amp; Cross</button>
+          </div>
+        </div>
+
+        <!-- Rendered Batches Grid -->
+        <div class="classes-list" id="classesListContainer">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Transformations & Hall of Fame -->
+  <section id="transformations" class="transformation-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge badge-orange">Crossings Republik Success Stories</span>
+        <h2 class="section-title">REAL PEOPLE. REAL METRIC TRANSFORMATIONS.</h2>
+        <p class="section-subtitle">No false promises. See how our members at Newtech La Gracia Mall transformed their health, body composition, and confidence with FittC Republic.</p>
+      </div>
+
+      <div class="transformation-wrapper">
+        <!-- Visual Comparison Box -->
+        <div class="transform-image-frame">
+          <img src="assets/transformation.jpg" alt="Member Transformation FittC Republic Gym Ghaziabad" loading="lazy">
+          <div class="transform-verified-badge">
+            <svg width="18" height="18" fill="var(--primary)" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+            Verified FittC Republic Transformation
+          </div>
+        </div>
+
+        <!-- Transformation Details -->
+        <div class="transform-details">
+          <span style="font-size: 0.85rem; color: var(--accent-orange); font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Member Case Study</span>
+          <h3 style="font-family: var(--font-heading); font-size: 2.4rem; margin: 6px 0 14px 0;">SNEHA M. (CROSSINGS REPUBLIK)</h3>
+          
+          <div class="transform-stats-grid">
+            <div class="t-stat-card">
+              <div class="t-stat-val">-14.2 KG</div>
+              <div class="t-stat-lbl">Body Fat Lost</div>
+            </div>
+            <div class="t-stat-card">
+              <div class="t-stat-val">+18%</div>
+              <div class="t-stat-lbl">Metabolic Stamina</div>
+            </div>
+            <div class="t-stat-card">
+              <div class="t-stat-val">Normal</div>
+              <div class="t-stat-lbl">HbA1c &amp; Hormones</div>
+            </div>
+          </div>
+
+          <p class="member-quote">
+            "Before joining FittC Republic, I struggled with sluggish energy and PCOS weight gain for 3 years. The in-house diet clinic helped me fix my food without starving, and the evening Zumba and strength workouts became my favorite hour of the day. The coaches here genuinely care about your progress!"
+          </p>
+
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <button class="btn btn-primary js-open-vip-pass">Start Your Transformation Today</button>
+            <a href="https://www.instagram.com/fittc_republic/?hl=en" target="_blank" class="btn btn-ghost">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="#000" stroke-width="1.5"></path></svg>
+              View More on Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Memberships & Pricing Packages -->
+  <section id="memberships" class="pricing-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Transparent Memberships</span>
+        <h2 class="section-title">INVEST IN YOUR HEALTH</h2>
+        <p class="section-subtitle">Flexible packages designed for your personal fitness stage. No hidden maintenance charges.</p>
+      </div>
+
+      <!-- Billing Toggle Switch -->
+      <div class="pricing-toggle-wrap">
+        <div class="billing-switch">
+          <button class="billing-opt" data-plan="monthly">Monthly</button>
+          <button class="billing-opt active" data-plan="quarterly">Quarterly <span class="save-badge">Popular</span></button>
+          <button class="billing-opt" data-plan="annual">Annual <span class="save-badge">Save 40%</span></button>
+        </div>
+      </div>
+
+      <!-- Pricing Cards Grid -->
+      <div class="pricing-grid">
+        <!-- Tier 1: Silver -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h4>SILVER REPUBLIC</h4>
+            <p class="pricing-desc">Ideal for self-motivated lifters who want unlimited access to the gym floor.</p>
+          </div>
+          <div class="price-box">
+            <span class="curr">₹</span>
+            <span class="amt" id="priceSilver">5,999</span>
+            <span class="period plan-duration">/ 3 months</span>
+          </div>
+          <ul class="pricing-features">
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Full access to strength &amp; cardio floor</li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> General floor trainer assistance</li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Clean locker &amp; shower facilities</li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> 1 Initial InBody body scan</li>
+          </ul>
+          <a href="https://wa.me/919871250900?text=Hi%20FITTC%20Republic,%20I%20am%20interested%20in%20the%20Silver%20Republic%20Membership!" target="_blank" class="btn btn-ghost" style="width: 100%;">
+            Join Silver Plan
+          </a>
+        </div>
+
+        <!-- Tier 2: Gold (Most Popular) -->
+        <div class="pricing-card featured">
+          <span class="pricing-popular-flag">Most Recommended</span>
+          <div class="pricing-header">
+            <h4>GOLD REPUBLIC</h4>
+            <p class="pricing-desc">The ultimate combo of heavy gym training + unlimited studio classes.</p>
+          </div>
+          <div class="price-box">
+            <span class="curr">₹</span>
+            <span class="amt" id="priceGold">8,499</span>
+            <span class="period plan-duration">/ 3 months</span>
+          </div>
+          <ul class="pricing-features">
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> <strong>Unlimited Gym Floor Access</strong></li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> <strong>Unlimited Zumba &amp; Dance Batches</strong></li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> <strong>Power Yoga &amp; Mobility Classes</strong></li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Weekend HIIT &amp; Combat MMA circuits</li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Steam bath sessions &amp; towel service</li>
+          </ul>
+          <a href="https://wa.me/919871250900?text=Hi%20FITTC%20Republic,%20I%20am%20interested%20in%20the%20Gold%20Republic%20Plan%20with%20Gym%20and%20Zumba!" target="_blank" class="btn btn-primary" style="width: 100%;">
+            Get Gold Republic Access
+          </a>
+        </div>
+
+        <!-- Tier 3: Diamond Diet Clinic -->
+        <div class="pricing-card" style="border-color: rgba(0, 229, 255, 0.4);">
+          <div class="pricing-header">
+            <h4>DIAMOND CLINIC</h4>
+            <p class="pricing-desc">Complete holistic package: Gym + All Studio Classes + Clinical Dietician supervision.</p>
+          </div>
+          <div class="price-box">
+            <span class="curr">₹</span>
+            <span class="amt" id="priceDiamond">11,999</span>
+            <span class="period plan-duration">/ 3 months</span>
+          </div>
+          <ul class="pricing-features">
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Everything in Gold Republic Plan</li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> <strong>Full In-House Clinical Diet Consultation</strong></li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Personalized meal chart &amp; weekly WhatsApp review</li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Bi-weekly InBody multi-scan trackings</li>
+            <li><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Priority steam bath &amp; locker reserve</li>
+          </ul>
+          <a href="https://wa.me/919871250900?text=Hi%20FITTC%20Republic,%20I%20want%20the%20Diamond%20Clinic%20Transformation%20Plan!" target="_blank" class="btn btn-orange" style="width: 100%;">
+            Enroll in Diamond Clinic
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Facility Virtual Tour & Atmosphere -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Take a Virtual Peek</span>
+        <h2 class="section-title">THE REPUBLIC FACILITY</h2>
+        <p class="section-subtitle">Located on the 3rd floor of Newtech La Gracia Mall with expansive high ceilings, modern air filtration, and upbeat motivational lighting.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/equipment.jpg" alt="Commercial Equipment Floor" loading="lazy">
+          <div class="gallery-overlay">
+            <h5>Strength &amp; Machine Deck</h5>
+            <p>Technogym &amp; Hammer Strength</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/classes.jpg" alt="Studio Group Classes" loading="lazy">
+          <div class="gallery-overlay">
+            <h5>Aerobic &amp; Dance Studio</h5>
+            <p>Zumba, Yoga, and Functional Training</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/diet.jpg" alt="Diet Clinic Consultation Room" loading="lazy">
+          <div class="gallery-overlay">
+            <h5>Diet Clinic Consultation Lounge</h5>
+            <p>Private Clinical Body Analysis</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="assets/trainer.jpg" alt="Personal Training Zone" loading="lazy">
+          <div class="gallery-overlay">
+            <h5>Personal Transformation Zone</h5>
+            <p>Kettlebells, Plyo &amp; Calisthenics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. Verified Member Reviews (4.9 Rating) -->
+  <section class="reviews-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Member Testimonials</span>
+        <h2 class="section-title">LOVED BY 500+ CROSSINGS REPUBLIK LOCALS</h2>
+        <p class="section-subtitle">Real experiences from our active community members living across Crossings Republik, Gaur City, and NH-24.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Hands down the cleanest and best-equipped gym in Crossings Republik. What sets them apart is the Diet Clinic—the nutritionist gave me a customized chart that easily fit my vegetarian diet. Lost 6 kg in my first two months without feeling weak!"</p>
+          <div class="reviewer-row">
+            <div class="reviewer-avatar">VG</div>
+            <div class="reviewer-info">
+              <h6>Vikas Gupta</h6>
+              <span>Mahagun Mascot, Crossings Republik</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"The Zumba and Yoga batches are so full of energy! Coach Priya makes every class fun and intense. The 3rd floor location in La Gracia Mall has ample parking and great crowd. Highly recommend to everyone in Ghaziabad."</p>
+          <div class="reviewer-row">
+            <div class="reviewer-avatar">AK</div>
+            <div class="reviewer-info">
+              <h6>Ananya Kaushik</h6>
+              <span>AIG Park Avenue, Crossings Republik</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Solid heavy dumbbells, squat racks, and zero waiting time during workouts. The trainers actually pay attention to your form rather than just trying to sell PT. The steam room after leg day is an absolute blessing!"</p>
+          <div class="reviewer-row">
+            <div class="reviewer-avatar">RS</div>
+            <div class="reviewer-info">
+              <h6>Rohan Singh</h6>
+              <span>Exotica Eastern Court, Crossings Republik</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Location, Timings & Contact Hub -->
+  <section id="contact" class="location-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge badge-orange">Easy To Reach</span>
+        <h2 class="section-title">VISIT FITTC REPUBLIC TODAY</h2>
+        <p class="section-subtitle">Prime location on NH-24 inside La Gracia Mall with elevator access and ample parking.</p>
+      </div>
+
+      <div class="location-grid">
+        <!-- Details Card -->
+        <div class="location-info-card">
+          <div class="loc-row">
+            <div class="loc-icon">
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-width="2"></path><circle cx="12" cy="10" r="3" stroke-width="2"></circle></svg>
+            </div>
+            <div class="loc-text">
+              <h5>Official Address</h5>
+              <p>3rd Floor, Newtech La Gracia (La Gracia Mall), Plot No. C3, Crossings Republik, NH-24, Ghaziabad, Uttar Pradesh – 201016</p>
+            </div>
+          </div>
+
+          <div class="loc-row">
+            <div class="loc-icon">
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2"></circle><path d="M12 6v6l4 2" stroke-width="2" stroke-linecap="round"></path></svg>
+            </div>
+            <div class="loc-text">
+              <h5>Operational Timings</h5>
+              <p><strong>Monday to Saturday:</strong> 6:00 AM – 10:30 PM</p>
+              <p><strong>Sunday:</strong> 2:00 PM – 9:00 PM</p>
+            </div>
+          </div>
+
+          <div class="loc-row">
+            <div class="loc-icon">
+              <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-width="2"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2"></line></svg>
+            </div>
+            <div class="loc-text">
+              <h5>Instagram &amp; Community</h5>
+              <p><a href="https://www.instagram.com/fittc_republic/?hl=en" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 700;">@fittc_republic</a> • Follow daily workout tips &amp; member transformations!</p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 14px; margin-top: 30px; flex-wrap: wrap;">
+            <a href="https://maps.google.com/?q=Newtech+La+Gracia+Crossings+Republik+Ghaziabad" target="_blank" class="btn btn-primary" id="btnGetDirections">
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6" stroke-width="2" stroke-linecap="round"></path></svg>
+              Get Driving Directions
+            </a>
+            <a href="tel:+919871250900" class="btn btn-ghost" id="btnCallDesk">
+              <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke-width="2"></path></svg>
+              Call Reception
+            </a>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed Representation -->
+        <div class="map-wrapper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.839841662973!2d77.4332463762283!3d28.604593985347716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee5f8a000001%3A0x6b876e69315b81a!2sNewtech%20La%20Gracia!5e0!3m2!1sen!2sin!4v1709123456789!5m2!1sen!2sin" 
+            title="FITTC Republic Location Map Crossings Republik Ghaziabad"
+            loading="lazy" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="brand-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">FITTC <span>REPUBLIC</span></span>
+              <span class="brand-tagline">Gym &amp; Diet Clinic</span>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; max-width: 340px;">
+            Crossings Republik's premier health landmark. We merge high-performance physical training with clinical nutritional expertise to unlock your healthiest, strongest self.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>EXPLORE</h4>
+          <ul class="footer-links">
+            <li><a href="#programs">Strength &amp; Cardio</a></li>
+            <li><a href="#diet-clinic">Clinical Diet Clinic</a></li>
+            <li><a href="#classes">Zumba &amp; Yoga Schedule</a></li>
+            <li><a href="#transformations">Member Transformations</a></li>
+            <li><a href="#memberships">Membership Plans</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>CONNECT</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.instagram.com/fittc_republic/?hl=en" target="_blank">Instagram Profile</a></li>
+            <li><a href="https://wa.me/919871250900" target="_blank">WhatsApp Desk</a></li>
+            <li><a href="tel:+919871250900">Direct Call</a></li>
+            <li><a href="#contact">Google Maps</a></li>
+            <li><a href="#" class="js-open-vip-pass">Book VIP Trial</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>HOURS &amp; ADDRESS</h4>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 10px;">
+            📍 3rd Floor, Newtech La Gracia Mall, Plot C3, Crossings Republik, Ghaziabad, UP 201016
+          </p>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 14px;">
+            ⏰ Mon - Sat: 6:00 AM – 10:30 PM<br>
+            ⏰ Sunday: 2:00 PM – 9:00 PM
+          </p>
+          <button class="btn btn-primary btn-sm js-open-vip-pass" style="width: 100%;">
+            Get 1-Day Trial Pass
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 FITTC REPUBLIC Gym &amp; Diet Clinic. All Rights Reserved.</div>
+        <div style="color: var(--text-muted); font-size: 0.78rem;">Designed for High-Converting Client Acquisition • Crossings Republik, Ghaziabad</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 13. FLOATING WHATSAPP TRIGGER & CHAT ASSISTANT -->
+  <button class="floating-whatsapp-btn" id="floatingWaBtn" aria-label="Chat with Gym on WhatsApp">
+    <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.288.043.088.072.19.014.305-.058.115-.087.187-.173.289l-.26.309c-.087.088-.178.184-.076.359.101.174.451.744.968 1.205.666.593 1.227.777 1.401.864.174.088.275.073.377-.044.101-.116.433-.506.549-.68.116-.174.231-.145.39-.087s1.011.477 1.184.564.289.13.332.203c.043.073.043.421-.101.826z"/></svg>
+  </button>
+
+  <div class="whatsapp-chat-bubble" id="waChatBubble">
+    <div class="bubble-head">
+      <div>
+        <h5>FITTC REPUBLIC Assistant</h5>
+        <span style="font-size: 0.75rem; color: #a7f3d0;">● Online • Responds in minutes</span>
+      </div>
+      <button class="bubble-close-btn" id="closeWaBubble">&times;</button>
+    </div>
+    <div class="bubble-body">
+      <div class="bubble-msg">
+        👋 Namaste! Welcome to FITTC REPUBLIC Gym &amp; Diet Clinic. What can we help you with today?
+      </div>
+      <button class="quick-wa-option" data-msg="Hi FITTC Republic! I would like to book a 1-Day Free VIP Trial Pass today.">
+        🎟️ Claim Free 1-Day VIP Pass
+      </button>
+      <button class="quick-wa-option" data-msg="Hello! Can you tell me your latest gym membership charges and offers?">
+        💰 Inquire Membership Fees &amp; Discounts
+      </button>
+      <button class="quick-wa-option" data-msg="Hi Diet Clinic! I want to schedule a Clinical Dietician consultation for weight loss / PCOS.">
+        🥗 Book Clinical Diet Consultation
+      </button>
+      <button class="quick-wa-option" data-msg="Hello! What are the timings for Zumba and Power Yoga batches?">
+        💃 Zumba &amp; Yoga Batch Timings
+      </button>
+    </div>
+  </div>
+
+  <!-- 14. DIGITAL VIP PASS MODAL -->
+  <div class="modal-overlay" id="vipPassModal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="closeVipPassModal">&times;</button>
+      <div id="vipModalBody">
+        <span class="card-top-badge">🎟️ Exclusive VIP Access</span>
+        <h3 style="font-family: var(--font-heading); font-size: 2.2rem; margin-bottom: 6px;">CLAIM YOUR 1-DAY PASS</h3>
+        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 22px;">
+          Experience our high-performance gym, join a live Zumba or Yoga batch, and get a complimentary body composition analysis.
+        </p>
+
+        <form id="vipPassForm" class="lead-form">
+          <div class="form-group">
+            <label for="passUserName" class="form-label">Full Name</label>
+            <input type="text" id="passUserName" class="form-control" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="passUserPhone" class="form-label">WhatsApp Contact Number</label>
+            <input type="tel" id="passUserPhone" class="form-control" placeholder="10-digit mobile number" required>
+          </div>
+
+          <div class="form-group">
+            <label for="passUserGoal" class="form-label">Your Priority Goal</label>
+            <select id="passUserGoal" class="form-control" required>
+              <option value="Fat Loss & Toning">Fat Loss &amp; Toning</option>
+              <option value="Muscle Building">Muscle Building &amp; Strength</option>
+              <option value="Group Fitness Class">Zumba / Yoga Studio Batch</option>
+              <option value="Diet Clinic Consultation">Clinical Diet Consultation (PCOS / Thyroid)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="passUserSlot" class="form-label">Preferred Time Slot</label>
+            <select id="passUserSlot" class="form-control" required>
+              <option value="Morning (06:00 AM - 10:00 AM)">Morning (06:00 AM - 10:00 AM)</option>
+              <option value="Afternoon (11:00 AM - 04:00 PM)">Afternoon (11:00 AM - 04:00 PM)</option>
+              <option value="Evening (05:00 PM - 09:30 PM)">Evening (05:00 PM - 09:30 PM)</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">
+            Generate &amp; Activate My Pass
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 15. GYM OWNER PITCH TOOL: DEMO LEAD CRM DRAWER -->
+  <!-- This floating tool helps pitch to the gym owner by showing leads captured live -->
+  <button class="client-pitch-badge" id="clientPitchBadge" title="Click to view live captured leads (Owner Demo Tool)">
+    <span>💼 Pitch Mode: Owner Lead CRM</span>
+    <span id="crmLeadCount" style="background: var(--primary); color: #000; padding: 1px 7px; border-radius: 99px; font-size: 0.75rem;">3</span>
+  </button>
+
+  <div class="crm-preview-drawer" id="crmPreviewDrawer">
+    <div class="crm-head">
+      <h5>
+        <svg width="18" height="18" fill="var(--primary)" viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        Gym Owner Lead Dashboard
+      </h5>
+      <button class="bubble-close-btn" id="closeCrmDrawer">&times;</button>
+    </div>
+    <div style="background: rgba(203, 243, 13, 0.08); padding: 8px 14px; font-size: 0.74rem; color: var(--primary); border-bottom: 1px solid rgba(255,255,255,0.06);">
+      💡 <strong>Client Pitch Feature:</strong> Shows the gym owner how every website visitor becomes a qualified paying lead sent directly to their staff!
+    </div>
+    <div class="crm-body" id="crmLeadsContainer">
+      <!-- Populated by app.js -->
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>

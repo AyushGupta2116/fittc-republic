@@ -1,0 +1,70 @@
+/* FITTC REPUBLIC Design System & Design Tokens */
+:root {
+  /* Color Palette */
+  --bg-dark: #07090e;
+  --bg-surface: #0e131f;
+  --bg-surface-elevated: #151d2f;
+  --bg-card: rgba(18, 24, 38, 0.75);
+  --bg-card-hover: rgba(26, 35, 56, 0.85);
+
+  /* Brand Accents */
+  --primary: #cbf30d; /* Electric Volt Neon Lime */
+  --primary-hover: #b8de0b;
+  --primary-glow: rgba(203, 243, 13, 0.35);
+  --primary-subtle: rgba(203, 243, 13, 0.12);
+
+  --accent-orange: #ff5b14; /* Energy Orange */
+  --accent-orange-glow: rgba(255, 91, 20, 0.3);
+  --accent-cyan: #00e5ff; /* Pulse Cyan */
+  --accent-cyan-subtle: rgba(0, 229, 255, 0.12);
+
+  /* WhatsApp Green */
+  --whatsapp-green: #25d366;
+  --whatsapp-glow: rgba(37, 211, 102, 0.4);
+
+  /* Typography Colors */
+  --text-main: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-inverse: #07090e;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(203, 243, 13, 0.35);
+  --border-glass: rgba(255, 255, 255, 0.12);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #cbf30d 0%, #a2d600 100%);
+  --gradient-energy: linear-gradient(135deg, #ff5b14 0%, #ff8c00 100%);
+  --gradient-dark: linear-gradient(180deg, rgba(7, 9, 14, 0.4) 0%, rgba(7, 9, 14, 0.95) 100%);
+  --gradient-card: linear-gradient(145deg, rgba(22, 31, 51, 0.6) 0%, rgba(13, 18, 30, 0.8) 100%);
+  --gradient-glow: radial-gradient(circle at 50% 50%, rgba(203, 243, 13, 0.15) 0%, transparent 70%);
+
+  /* Typography */
+  --font-heading: 'Bebas Neue', 'Outfit', sans-serif;
+  --font-subheading: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Spacing */
+  --container-max: 1280px;
+  --nav-height: 80px;
+  --announcement-height: 40px;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 30px var(--primary-glow);
+  --shadow-glow-orange: 0 0 30px var(--accent-orange-glow);
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+}

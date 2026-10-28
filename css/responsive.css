@@ -1,0 +1,143 @@
+/* FITTC REPUBLIC Responsive Styles */
+
+@media (max-width: 1024px) {
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-card-wrapper {
+    max-width: 580px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .diet-clinic-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .transformation-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --nav-height: 70px;
+  }
+
+  .announcement-bar {
+    display: none; /* Hide top bar on compact mobile to maximize viewport */
+  }
+
+  .site-header {
+    padding: 0 10px;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    width: 100%;
+    background: rgba(10, 14, 23, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+    border-bottom: 1px solid var(--border-glass);
+    transform: translateY(-120%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all var(--transition-normal);
+  }
+
+  .nav-menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-actions .btn-whatsapp {
+    display: none; /* Keep primary VIP pass visible */
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-title {
+    font-size: 2.6rem;
+  }
+
+  .hero-metrics-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .metric-num {
+    font-size: 1.8rem;
+  }
+
+  .diet-perks {
+    grid-template-columns: 1fr;
+  }
+
+  .calc-inputs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .classes-list {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .whatsapp-chat-bubble {
+    width: calc(100vw - 32px);
+    right: 16px;
+    bottom: 90px;
+  }
+
+  .crm-preview-drawer {
+    width: calc(100vw - 32px);
+    left: 16px;
+    bottom: 80px;
+  }
+
+  .client-pitch-badge {
+    left: 16px;
+    bottom: 20px;
+    font-size: 0.75rem;
+    padding: 8px 14px;
+  }
+
+  .floating-whatsapp-btn {
+    right: 16px;
+    bottom: 20px;
+    width: 52px;
+    height: 52px;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "fittc-republic-gym",
+  "version": "1.0.0",
+  "description": "FITTC REPUBLIC - Premier Gym & Diet Clinic in Crossings Republik, Ghaziabad",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^41.3.2"
+  }
+}
